@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    font-size: 16px;
+    color: #fff;
+}
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 400px;
+}
+.wrapper:before{
+    background-image: url(https://www.worldatlas.com/r/w768/upload/c8/0e/5f/shutterstock-311521226.jpg);
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index:-1;
+    display: block; 
+    filter: blur(0px);
+}
+.wrapper .header-text{
+     font-size: 40px;
+     font-weight: 600;
+     padding-bottom: 30px;
+     text-align: center;
+}
+.wrapper input{
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    top: 50%;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.wrapper button{
+    background-color: rgba(0, 47, 255, 0.671);
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25%;
+    position: relative;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0;
+    left: 20%;
+    top: 5%;
+}
+.wrapper button:hover{
+    background-color: aqua;
+}
+

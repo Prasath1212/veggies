@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Signup</h2>
+        </div>
+        <form class="form" id="form" action="signup.php" method="post">
+            <div class="form-control">
+                <label>Username</label>
+                <input autocomplete="off" type="text" placeholder="Username" id="Username" name="username">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input autocomplete="off" type="text" placeholder="Email" id="Email" name="email">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="Password" id="Password" name="password">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm your Password</label>
+                <input type="password" placeholder="Confirm your Password" id="Confirm your Password" name="confirm">
+                <small>Error message</small>
+            </div>
+            
+            <button>Submit</button>
+            <p class="para-2">Not have an account?<a href="login.html"> login form</a></p>
+        </form>
+        
+    </div>
+</body>

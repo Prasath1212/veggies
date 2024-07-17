@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop now</title>
+        <link rel="stylesheet" href="shop.css">
+    </head>
+<body>
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table id="myTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Name</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th class="text-right">
+                                    <span id="amount" class="amount">Amount</span>
+                                </th>
+                                <th>Add</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--Tomato-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://m.media-amazon.com/images/I/71DYmqoq-VL._SL1024_.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Tomato</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="20" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--Cabbage-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/284/284823/one-big-cabbage.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Cabbage</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="32" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--Chilli-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://www.collinsdictionary.com/images/full/chili_149167352.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Chilli</p>
+                                    <span>500g</span>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="30" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--capcicum-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://sunrisefruits.com/wp-content/uploads/2018/05/Productos-Pimientos-Peppers-Sunrisefruitscompany.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Capcicum</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="40" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--cauli flower-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://solidstarts.com/wp-content/uploads/cauliflower_edited-scaled.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Cauli Flower</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="32" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>        
+                            <!--beans-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/285/285753/beans.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Beans</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="25" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>        
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4"></td>
+                                <td align="right">
+                                    <strong>Total = Rs <span id="total" class="total">0</span></strong>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpat.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./shop.js"></script>
+</body>
+</html>

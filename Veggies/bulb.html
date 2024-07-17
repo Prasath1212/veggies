@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bulb Vegetable</title>
+        <link rel="stylesheet" href="bulb.css">
+    </head>
+<body>
+    <div class="container-fluid mt-5">
+        <h2 class="container" align="center">Bulb Vegetables</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table id="myTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Name</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th class="text-right">   
+                                    <span id="amount" class="amount">Amount</span>
+                                </th>
+                                <th>Add</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--Onion-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://www.veggycation.com.au/siteassets/veggycationvegetable/onion.jpg">
+                                            
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Onion</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="35" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper add-cart cart1" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--Garlic-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://5.imimg.com/data5/SELLER/Default/2020/11/ZY/NB/EM/66520044/single-clove-garlic-500x500.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Garlic</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="45" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper add-cart cart2" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--Green Onion-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://www.grocio.in/upload_images/product/big/8651612970339.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Green Onion</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="100" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper add-cart cart3" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!--Shallot-->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-product">
+                                            <img src="https://i.pinimg.com/originals/e5/6d/f9/e56df9169ee5eb6f1a3e9841dbafb1f4.jpg">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Shallot</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                        <input type="text" name="qty" min="0" class="qty form-control" value="0"/>
+                                        <button class="cart-qty-minus" type="button" value="-">-</button> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="30" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs
+                                    <span id="amount" class="amount">0</span>
+                                </td>
+                                <td>
+                                    <div class="button">
+                                        <button class="wrapper add-cart cart4" type="button">Add to Cart</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4"></td>
+                                <td align="right">
+                                    <strong>Total = Rs <span id="total" class="total">0</span></strong>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpat.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./bulb.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

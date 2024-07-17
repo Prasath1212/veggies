@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 110%;
+    background-image: url(https://media.istockphoto.com/photos/bokeh-picture-id1248398407?k=20&m=1248398407&s=612x612&w=0&h=VRV4vktTyIkDmJMsqLFDwjSpvczM-DryL5rTMXBMZKE=);
+    background-size: cover;
+}
+*{
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    font-size: 40px;
+}
+.table{
+    padding: 10px;
+}
+i{
+    margin-right: 10px;
+}
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled, .form-control[read-only]{
+    background-color: #fff;
+}
+.table tr, .table tr td{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+}
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus, .cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.cart-qty-plus:hover, .cart-qty-minus:hover{
+    background-color: rgba(0, 128, 0, 0.89);
+    color: #fff;
+}
+.img-product{
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+.img-product img{
+    width: 100%;
+}
+.button .wrapper{
+    background-color: green;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+}
+.button .wrapper:hover{
+    background-color: rgb(255, 217, 47);
+}
